@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e3693af1ba.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="dia">Lista de Tarefas</h1>
+            <p id="data"></p>
+            <section class="create_task">
+                <input id="input" type="text" placeholder="Adicione a sua nova tarefa...">
+                <button id="btnAdd"><i class="fas fa-tasks"></i></button>
+            </section>
+        </header>
+
+        <main id="main">
+            <ul id="ul">
+
+            </ul>
+        </main>
+
+        <footer>
+            <p id="p_footer">You have 0 pending tasks</p>
+            <button id="btnDeleteAll">Limpar</button>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
